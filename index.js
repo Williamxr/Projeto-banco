@@ -7,7 +7,6 @@ const cliente2 = new Cliente("Alice", 133322211109);
 const contaCorrenteRicardo = new ContaCorrente(cliente1, 1001);
 contaCorrenteRicardo.depositar(500);
 
-
 const valorSacado = contaCorrenteRicardo.sacar(50);
 console.log(valorSacado);
 
@@ -20,3 +19,5 @@ let valor = 200;
 contaCorrenteRicardo.transferir(valor, conta2);
 console.log(conta2.saldo);
 console.log(contaCorrenteRicardo);
+
+console.log(ContaCorrente.numeroDeContas);
